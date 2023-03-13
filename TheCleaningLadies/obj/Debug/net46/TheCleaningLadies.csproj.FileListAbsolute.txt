@@ -1,0 +1,7 @@
+D:\Projects\capstone\TheCleaningLadies\obj\Debug\net46\TheCleaningLadies.csprojAssemblyReference.cache
+D:\Projects\capstone\TheCleaningLadies\obj\Debug\net46\TheCleaningLadies.csproj.CoreCompileInputs.cache
+D:\Projects\capstone\TheCleaningLadies\obj\Debug\net46\TheCleaningLadies.AssemblyInfoInputs.cache
+D:\Projects\capstone\TheCleaningLadies\obj\Debug\net46\TheCleaningLadies.AssemblyInfo.cs
+D:\Projects\capstone\TheCleaningLadies\obj\Debug\net46\TheCleaningLadies.csproj.AssemblyReference.cache
+D:\Projects\capstone\TheCleaningLadies\obj\Debug\net46\TheCleaningLadies.csproj.SuggestedBindingRedirects.cache
+D:\Projects\capstone\TheCleaningLadies\obj\Debug\net46\TheCleaningLadies.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,0 +1,26 @@
+using RazorPagesUser.Models;
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Details</title>
+</head>
+<body>
+    <h2>User Details</h2>
+
+    <table>
+        <tr>
+            <td>Username:</td>
+            <td>@Model.username</td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td>@Model.password</td>
+        </tr>
+        <tr>
+            <td>Location:</td>
+            <td>@Model.location</td>
+        </tr>
+    </table>
+</body>
+</html>

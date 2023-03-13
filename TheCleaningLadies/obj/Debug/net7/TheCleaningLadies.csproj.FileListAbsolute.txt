@@ -1,0 +1,8 @@
+D:\Projects\capstone\TheCleaningLadies\obj\Debug\net7\TheCleaningLadies.csproj.AssemblyReference.cache
+D:\Projects\capstone\TheCleaningLadies\obj\Debug\net7\TheCleaningLadies.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\capstone\TheCleaningLadies\obj\Debug\net7\TheCleaningLadies.AssemblyInfoInputs.cache
+D:\Projects\capstone\TheCleaningLadies\obj\Debug\net7\TheCleaningLadies.AssemblyInfo.cs
+D:\Projects\capstone\TheCleaningLadies\obj\Debug\net7\TheCleaningLadies.csproj.CoreCompileInputs.cache
+D:\Projects\capstone\TheCleaningLadies\obj\Debug\net7\TheCleaningLadies.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\capstone\TheCleaningLadies\obj\Debug\net7\TheCleaningLadies.RazorAssemblyInfo.cache
+D:\Projects\capstone\TheCleaningLadies\obj\Debug\net7\TheCleaningLadies.RazorAssemblyInfo.cs
