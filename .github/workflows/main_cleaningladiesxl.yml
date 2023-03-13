@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'cleaningladiesxl'
           slot-name: 'Production'
-          publish-profile: ${{secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F898C99AE4424E3B9F3FC93E9C9EE7B4}}
+          publish-profile: ${{secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EA2C0D06CD56418885FC0D22E9428B72}}
           package: .
