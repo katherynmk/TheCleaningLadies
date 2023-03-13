@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy ASP.Net Core app to Azure Web App - lastcleaninglady
+name: Build and deploy ASP.Net Core app to Azure Web App - cleaningladiesxl
 
 on:
   push:
@@ -51,7 +51,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'lastcleaninglady'
+          app-name: 'cleaningladiesxl'
           slot-name: 'Production'
-          publish-profile: ${{ AZUREAPPSERVICE_PUBLISHPROFILE_5F2D128517D54D53BA94F71EB552A0ED }}
+          publish-profile: ${{secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F898C99AE4424E3B9F3FC93E9C9EE7B4}}
           package: .
