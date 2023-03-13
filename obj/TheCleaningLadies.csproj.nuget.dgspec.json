@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\TheCleaningLadies\\TheCleaningLadies.csproj": {}
+    "D:\\Projects\\capstone\\TheCleaningLadies\\TheCleaningLadies.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\TheCleaningLadies\\TheCleaningLadies.csproj": {
+    "D:\\Projects\\capstone\\TheCleaningLadies\\TheCleaningLadies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\TheCleaningLadies\\TheCleaningLadies.csproj",
+        "projectUniqueName": "D:\\Projects\\capstone\\TheCleaningLadies\\TheCleaningLadies.csproj",
         "projectName": "TheCleaningLadies",
-        "projectPath": "D:\\Projects\\TheCleaningLadies\\TheCleaningLadies.csproj",
+        "projectPath": "D:\\Projects\\capstone\\TheCleaningLadies\\TheCleaningLadies.csproj",
         "packagesPath": "C:\\Users\\dogsa\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\TheCleaningLadies\\obj\\",
+        "outputPath": "D:\\Projects\\capstone\\TheCleaningLadies\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
