@@ -4,7 +4,7 @@ Our [MVP](The_Cleaning_Ladies_MVP.md)
 
 [CI/CD Integration Plan](CI_CD_Integration_Plan.md)
 
-[Production Enviroment](cleanlady.azurewebsites.net/)
+[Production Enviroment](https://cleanlady.azurewebsites.net/BuyerView))
 
 [Download ASP.NET](https://dotnet.microsoft.com/en-us/learn/aspnet/hello-world-tutorial/install)
 
