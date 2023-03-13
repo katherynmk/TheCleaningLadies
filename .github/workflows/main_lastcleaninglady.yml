@@ -51,7 +51,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'cleaningladiesxl'
+          app-name: 'lastcleaninglady'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EA2C0D06CD56418885FC0D22E9428B72 }}
+          publish-profile: ${{ AZUREAPPSERVICE_PUBLISHPROFILE_5F2D128517D54D53BA94F71EB552A0ED }}
           package: .
