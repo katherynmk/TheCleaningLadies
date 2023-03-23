@@ -16,7 +16,7 @@ function initMap() {
   
   window.initMap = initMap;
 
-  // CALENDAR 
+  // CALENDAR <!-- Coding By CodingNepal - youtube.com/codingnepal -->
 
   const daysTag = document.querySelector(".days"),
 currentDate = document.querySelector(".current-date"),
@@ -73,3 +73,21 @@ prevNextIcon.forEach(icon => { // getting prev and next icons
         renderCalendar(); // calling renderCalendar function
     });
 });
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown menu if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }

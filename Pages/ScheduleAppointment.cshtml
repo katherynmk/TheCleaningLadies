@@ -16,6 +16,9 @@
   
   </head>
   <body>
+  <div class = "row">
+  <div class = "column">
+
     <div class="wrapper">
       <header>
         <p class="current-date"></p>
@@ -37,20 +40,55 @@
         <ul class="days"></ul>
       </div>
     </div>
-    
+
+</div>
+    <!-- form part -->
+
+<div class = "column">
+
+<h1>Schedule Appointment With:</h1>
+
+<!-- add the search bar for NAME -->
+
+
+
+<div class = "card">
+<p></p>
+    <form action="mailto: katherynmk02@gmail.com">
+        Cleaner Email:<br>
+        <input type="text" name="username" 
+               placeholder="Enter The Cleaner's Email"><br><br>
+        Appointment Date mm/dd:<br>
+        <input type="text" name="message" 
+            rows="10" cols="30" 
+            placeholder="Enter your cleaning time"> <br><br>
+        Message/Special Request:<br>
+        <input type="text" name="message" 
+            rows="10" cols="30" 
+            placeholder="Enter your cleaning time"> <br><br>
+
+      Select Time: <br>
+      <select id="cars" name="cars">
+         <option value="volvo">6:00AM</option>
+        <option value="saab">7:00AM</option>
+        <option value="fiat">8:00AM</option>
+        <option value="audi">9:00AM</option>
+      </select> <br><br>
+
+        <input type="submit" class = "button1" value="Send Email">
+    </form>
+
+</div>
+
+</div>
+</div>
+
   </body>
 </html>
 <style>
-/* Import Google font - Poppins */
 
-body{
-  display: flex;
-  align-items: center;
-  padding: 0 10px;
-  justify-content: center;
-  min-height: 100vh;
-  background: #9B59B6;
-}
+
+
 .wrapper{
   width: 450px;
   background: #fff;
@@ -140,3 +178,6 @@ header .current-date{
 }
 </style>
 
+@section Scripts {
+<partial name="_ValidationScriptsPartial" />
+}
