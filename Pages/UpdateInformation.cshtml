@@ -1,0 +1,26 @@
+﻿@page
+@using RazorPagesUser.Models
+@model TheCleaningLadies.Pages.UpdateInformation
+@{
+    ViewData["Title"] = "Update Information";
+}
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1><span>Welcome @(Model.theUser.username)!</span></h1>
+        <br>
+        <h4>Update Information:</h4>
+        <br>
+        <form method="post">
+
+            <p>Location:</p>
+            <input name="nlocation" />
+
+            <input type="submit" />
+        </form>
+    </body>
+
+</html>
