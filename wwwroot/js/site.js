@@ -91,3 +91,5 @@ function myFunction() {
       }
     }
   }
+
+  $('.carousel').carousel()

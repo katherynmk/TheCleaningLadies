@@ -751,23 +751,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dogsa\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\katie\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\TheCleaningLadies\\TheCleaningLadies.csproj",
+      "projectUniqueName": "C:\\Users\\katie\\OneDrive\\Documents\\TheCleaningLadies\\TheCleaningLadies.csproj",
       "projectName": "TheCleaningLadies",
-      "projectPath": "D:\\Projects\\TheCleaningLadies\\TheCleaningLadies.csproj",
-      "packagesPath": "C:\\Users\\dogsa\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\TheCleaningLadies\\obj\\",
+      "projectPath": "C:\\Users\\katie\\OneDrive\\Documents\\TheCleaningLadies\\TheCleaningLadies.csproj",
+      "packagesPath": "C:\\Users\\katie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\katie\\OneDrive\\Documents\\TheCleaningLadies\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dogsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\katie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -817,7 +818,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

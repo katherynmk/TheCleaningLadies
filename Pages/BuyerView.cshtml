@@ -25,28 +25,19 @@
                 <input type="submit"/>
             </form>
         </div>
-    </form>
-    <table class="table mt-5">
-        <thead>
-            <tr>
-                <th scope="col">User Name</th>
-                <th scope="col">Location</th>
-            </tr>
-        </thead>
-                
-            @foreach (var user in Model.users)
-            {
-                <tr>
-                    <td>@user.username</td>
-                    <td>@user.location</td>
-                    <tr>
-                    <td>
-                        
-                    </td>
-                </tr>
-                </tr>
-            }
-    </table>
+    </form>       
+<div  class = "scroll">
+@foreach (var user in Model.users)
+    {
+        
+        <div class="card">
+            <p>@user.username</p>
+            <p>@user.location</p>
+        </div>
+    }
+    
+  </div>
+    
 
     @section Scripts {
     <partial name="_ValidationScriptsPartial" />

@@ -283,6 +283,16 @@ textarea {
   resize:vertical;
 }
 
+div.scroll {
+  margin:4px, 4px;
+  padding:4px;
+  background-color: rgb(131, 215, 131);
+  width: 545px;
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+}
 /* [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
