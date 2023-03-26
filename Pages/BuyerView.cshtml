@@ -29,10 +29,28 @@
 <div  class = "scroll">
 @foreach (var user in Model.users)
     {
-        
+        <div class = "row" >
+        <div class = "column">
         <div class="card">
-            <p>@user.username</p>
-            <p>@user.location</p>
+        <img src="images/avatar2.png" height= 100px width=100px>
+            <p>My name is @user.username</p>
+            <p>I work in @user.location</p>
+             <a class="button" href="/ScheduleAppointment">Schedule</a>
+        </div>
+        </div>
+
+        <div class = "column">
+        <div class = "card"> 
+            <p>My hours are </p>
+            <p> Monday: @user.mondayStart to @user.mondayEnd </p>
+            <p> Tuesday: @user.tuesdayStart to @user.tuesdayEnd </p>
+            <p> Wednesday: @user.wednesdayStart to @user.wednesdayEnd </p>
+            <p> Thursday: @user.thursdayStart to @user.thursdayEnd </p>
+            <p> Friday: @user.fridayStart to @user.fridayEnd </p>
+            <p> Saturday: @user.saturdayStart to @user.saturdayEnd </p>
+            <p> Sunday: @user.sundayStart to @user.sundayEnd </p>
+        </div>
+        </div>
         </div>
     }
     
@@ -62,3 +80,9 @@
     </div>
     </div>
 </div>
+
+<style>
+img {
+  border-radius: 50%;
+}
+</style>
