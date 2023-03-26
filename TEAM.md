@@ -23,3 +23,19 @@ Team will continue communication on discord
 
 SPRINT 2 REVIEW:
 Emily is hosting, and working with the team to get the template working and up. Katie is working with the tempalte to figure our the intricate details and implementing the starting HTML and CSS code. Cammie is Designing the website and logos, sending those to Katie to be implemented. Communication is good. Demos need to be better, code should be demoed and showed to the whole group so the group knows what is oging on with the project. 
+
+Sprint 3 Review:
+As a team, we created our production and developer environment. We created a GitHub with documentation that assures that any user can follow the instructions and run the code locally. But we also created a production environment on Microsoft Azure in which users can open the code globally. We made sure that the instructions and documentation in the readme would enable anyone to run the code in any way, locally or globally.
+	
+	We also wanted to assure that the website was readable and clear. We worked on the CSS and the navigation bar along with the basic HTML to create a beautiful and dynamic environment. Any user young or old would be able to navigate through the site with ease and enjoy the simplistic yet elegant color scheme. This task was left up to and continues to be the job of Cammie.
+
+	The team created a database to use throughout the site. This was a difficult yet necessary task that will be used throughout the development process. This quintessential part was done by Emily. 
+
+	We decided to use Google calendars to keep with the clear and concise readability of the product. This part was completed by Katie.
+
+	This sprint realized the cornerstones of the product, useability, and readability. We want a functional site that users want to use. 
+  
+  Sprint 4 Review:
+
+
+
