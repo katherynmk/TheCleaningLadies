@@ -27,8 +27,7 @@ The **seller** will be able to indicate where they are located and in which loca
 **What HAS to be implemented to reach MVP status**
 
 + Schedule.
-+ Price.
-+ Payment.
+
 
 
 ### Buyer
@@ -44,7 +43,7 @@ The **buyer** will be able to view services around the given address. This will 
 
 **What HAS to be implemented to reach MVP status**
 
-+ Purchase a service
+
 + Schedule a service
 
 
