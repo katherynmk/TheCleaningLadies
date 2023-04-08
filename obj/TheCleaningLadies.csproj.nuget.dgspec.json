@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\katie\\OneDrive\\Documents\\TheCleaningLadies\\TheCleaningLadies.csproj": {}
+    "C:\\Users\\cammi\\TheCleaningLadies\\TheCleaningLadies.csproj": {}
   },
   "projects": {
-    "C:\\Users\\katie\\OneDrive\\Documents\\TheCleaningLadies\\TheCleaningLadies.csproj": {
+    "C:\\Users\\cammi\\TheCleaningLadies\\TheCleaningLadies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\katie\\OneDrive\\Documents\\TheCleaningLadies\\TheCleaningLadies.csproj",
+        "projectUniqueName": "C:\\Users\\cammi\\TheCleaningLadies\\TheCleaningLadies.csproj",
         "projectName": "TheCleaningLadies",
-        "projectPath": "C:\\Users\\katie\\OneDrive\\Documents\\TheCleaningLadies\\TheCleaningLadies.csproj",
-        "packagesPath": "C:\\Users\\katie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\katie\\OneDrive\\Documents\\TheCleaningLadies\\obj\\",
+        "projectPath": "C:\\Users\\cammi\\TheCleaningLadies\\TheCleaningLadies.csproj",
+        "packagesPath": "C:\\Users\\cammi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cammi\\TheCleaningLadies\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\katie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\cammi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
