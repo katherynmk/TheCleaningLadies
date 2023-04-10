@@ -58,4 +58,14 @@ Sprint 4:
 ●	Cammie
 ○	As a user, I want there to be a contact tab on the website, so that I may get in touch with the developers in case a problem arises (2 points) 
 
+Sprint 5: 
+Cammie
+As a user, I want the website to look similar on my phone, laptop, and other devices so that I am never confused by the product or not enjoying the look of the product (2 points) 
+As a cleaner, I want to have a profile that shows my skills, and other information so that I may acquire new buyers (10 points)
+Emily
+As a user, I want the code and database to hash or encrypt my log-in information so that I have privacy and security (10 points)
+As  user, I want to be able to change my password, so that I may have access to the site even if I forget my information (10 points)
+Katie
+As a user, I want a third party payment processor like paypal to be used, so that I know my payment information is secure (10 points)
+As a cleaner, I want to be able to provide payment information on my account so that I may be able to receive payment (5 points)
 
