@@ -15,6 +15,9 @@ public class User
     public string username { get; set;}
 
     public string password { get; set;}
+    public string cnumber { get; set;}
+    public string cdate { get; set;}
+    public string ccvv { get; set;}
     public string? location { get; set;}
 
     public string sessionID { get; set;}
