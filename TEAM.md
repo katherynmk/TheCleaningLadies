@@ -37,5 +37,10 @@ As a team, we created our production and developer environment. We created a Git
   
   Sprint 4 Review:
 
+	As a team, we continued to work tirelessly in our production environment. We did create an entirely new repository to ensure that there were no issues with our site being hosted through Microsoft Azure. Users can still also follow instructions to run the code locally. 
+	Cammie is still working to ensure that the website is clean for users to navigate. Cammie and Katie continue to add to the pages and update the site CSS to make sure that everything is cohesive across the whole site. 
+	Emily continues to work on the database, understanding how to store all the necessary pieces of user data, like account information (usernames, passwords) as well as creating functions so that users can successfully create their accounts and log in on the site. 
+	Katie has still been researching and updating the best ways to showcase the calendar for users to book appointments as well as the Google maps feature so users can find cleaners in their area. 
+	This sprint was a continuation of updating and enhancing the product's useability so that users can access our resources through a functional and cohesive site. 
 
 
