@@ -48,9 +48,9 @@ namespace TheCleaningLadies.Pages
                     }
 
                     
-                    if (ncnumber != null && nlocation != "")
+                    if (ncnumber != null && ncnumber != "")
                     {
-                        theUser.cnumber = ncumber;
+                        theUser.cnumber = ncnumber;
                         userService.Update(theUser.username, theUser);
                     }
 
