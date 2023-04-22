@@ -26,7 +26,7 @@ namespace TheCleaningLadies.Pages
             return RedirectToPage("/Seller");
         }
 
-        public void OnPost(string nlocation, string ncnumber, string ncdate, string nccvv, string mondayStart, string mondayEnd, string tuesdayStart, string tuesdayEnd,
+        public void OnPost(string nlocation, string ncnumber, string ncdate, string nccvv, string narea, string nemail, string mondayStart, string mondayEnd, string tuesdayStart, string tuesdayEnd,
                    string wednesdayStart, string wednesdayEnd, string thursdayStart, string thursdayEnd,
                    string fridayStart, string fridayEnd, string saturdayStart, string saturdayEnd,
                    string sundayStart, string sundayEnd)
@@ -67,6 +67,18 @@ namespace TheCleaningLadies.Pages
                         theUser.ccvv = nccvv;
                         userService.Update(theUser.username, theUser);
                     }
+                    if (narea != null && narea != "")
+                    {
+                        theUser.area = narea;
+                        userService.Update(theUser.username, theUser);
+                    }
+
+                    if (nemail != null && nemail!= "")
+                    {
+                        theUser.email = nemail;
+                        userService.Update(theUser.username, theUser);
+                    }
+
 
                     if (mondayStart != null && mondayStart != "")
                     {

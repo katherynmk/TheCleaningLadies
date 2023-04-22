@@ -18,6 +18,8 @@ public class User
     public string cnumber { get; set;}
     public string cdate { get; set;}
     public string ccvv { get; set;}
+    public string area {get; set;}
+    public string email {get; set;}
     public string? location { get; set;}
 
     public string sessionID { get; set;}
