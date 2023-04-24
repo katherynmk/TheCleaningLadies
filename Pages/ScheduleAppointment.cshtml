@@ -1,4 +1,5 @@
 ﻿@page
+@using RazorPagesUser.Models
 @model RazorPagesScheduleAppointment.Pages.ScheduleAppointmentModel
 @{
 }
@@ -51,17 +52,28 @@
 
 <!-- add the search bar for NAME -->
 <div class = "card">
-<p> this is where cleaner name goes <p>
+               <h3 style="color:black">
+                    <b>
+                        @Model.theUser.username </b>
+                    located in <b>@Model.theUser.location</b>
+                </h3>
 
-<p> cleaner email </p>
+                <p> @Model.theUser.email </p>
 
-<p> cleaner Schedule </p>
+<p> Monday: @Model.theUser.mondayStart to @Model.theUser.mondayEnd </p>
+<p> Tuesday: @Model.theUser.tuesdayStart to @Model.theUser.tuesdayEnd </p>
+<p> Wednesday: @Model.theUser.wednesdayStart to @Model.theUser.wednesdayEnd </p>
+<p> Thursday: @Model.theUser.thursdayStart to @Model.theUser.thursdayEnd </p>
+<p> Friday: @Model.theUser.fridayStart to @Model.theUser.fridayEnd </p>
+<p> Saturday: @Model.theUser.saturdayStart to @Model.theUser.saturdayEnd </p>
+<p> Sunday: @Model.theUser.sundayStart to @Model.theUser.sundayEnd </p>
 
-<p> cleaner location </p>
 
-<p> cleaner work radius from that location </p>
+<!--<p> cleaner work radius from that location </p>-->
 
-<p> katie buttons n shit </p>
+ <button>I want a first meeting</button>
+
+
 
 
 <div class = "card">

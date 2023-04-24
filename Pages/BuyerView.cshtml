@@ -26,7 +26,7 @@
             </form>
         </div>
     </form>    
-    
+   <!--
 @foreach (var user in Model.users)
     {
         <div class = "row" >
@@ -35,7 +35,7 @@
         <img src="images/avatar2.png" height= 100px width=100px>
             <p>My name is @user.username</p>
             <p>I work in @user.location</p>
-             <a class="button" href="/ScheduleAppointment">Schedule</a>
+             <a class="button" href="/ScheduleAppointment?id=@user.username">Schedule</a>
         </div>
         </div>
 
@@ -52,7 +52,7 @@
         </div>
         </div>
         </div>
-    }
+    }-->
     
 
     @section Scripts {
@@ -81,77 +81,33 @@
 
 <div class ="container">
     <div class = "card-rows">
+        @foreach (var user in Model.users)
+        {
         <div class="card-container">
             <img class="round" src="https://randomuser.me/api/portraits/women/79.jpg" alt="user" />
-            <h3>Yeet Skeet</h3>
-            <h6>Romeoville, IL</h6>
+            <h3>@user.username</h3>
+                <h6>@user.location</h6>
             <p></p>
             <div class="buttons">
-                <button class="primary">
-                    Book Appointment
-                </button>
+                    <div class="primary">
+                        <a class="button" href="/ScheduleAppointment?id=@user.username">Book Appointment</a>
+                    </div>
             </div>
             <div class="schedule">
                 <h6>Schedule</h6>
-                <ul>
-                    <li>Monday: 10AM - 2PM</li> 
-                    <li>Tuesday: 12PM - 5PM</li>
-                    <li>Wednesday: 10AM - 2PM</li>
-                    <li>Thursday: 12PM - 5PM</li>
-                    <li>Friday: 10AM - 2PM</li>
-                    <li>Saturday: 8AM - 3PM</li>
-                    <li>Sunday: 8AM - 3PM</li>
-                </ul>
-            </div>
-        </div>
+                    <ul>
+                        <li>Monday: @user.mondayStart - @user.mondayEnd</li>
+                        <li>Tuesday: @user.tuesdayStart - @user.tuesdayEnd</li>
+                        <li>Wednesday: @user.wednesdayStart - @user.wednesdayEnd</li>
+                        <li>Thursday: @user.thursdayStart - @user.thursdayEnd</li>
+                        <li>Friday: @user.fridayStart - @user.fridayEnd</li>
+                        <li>Saturday: @user.saturdayStart - @user.saturdayEnd</li>
+                        <li>Sunday: @user.sundayStart - @user.sundayEnd</li>
+                    </ul>
 
-        <div class="card-container">
-            <img class="round" src="https://randomuser.me/api/portraits/women/79.jpg" alt="user" />
-            <h3>Skeeturu</h3>
-            <h6>Romeoville, IL</h6>
-            <p></p>
-            <div class="buttons">
-                <button class="primary">
-                    Book Appointment
-                </button>
-            </div>
-            <div class="schedule">
-                <h6>Schedule</h6>
-                <ul>
-                    <li>Monday: 10AM - 2PM</li> 
-                    <li>Tuesday: 12PM - 5PM</li>
-                    <li>Wednesday: 10AM - 2PM</li>
-                    <li>Thursday: 12PM - 5PM</li>
-                    <li>Friday: 10AM - 2PM</li>
-                    <li>Saturday: 8AM - 3PM</li>
-                    <li>Sunday: 8AM - 3PM</li>
-                </ul>
             </div>
         </div>
-
-        <div class="card-container">
-            <img class="round" src="https://randomuser.me/api/portraits/women/79.jpg" alt="user" />
-            <h3>Skeetus Yeetus</h3>
-            <h6>Romeoville, IL</h6>
-            <p></p>
-            <div class="buttons">
-                <button class="primary">
-                    Book Appointment
-                </button>
-            </div>
-            <div class="schedule">
-                <h6>Schedule</h6>
-                <ul>
-                    <li>Monday: 10AM - 2PM</li> 
-                    <li>Tuesday: 12PM - 5PM</li>
-                    <li>Wednesday: 10AM - 2PM</li>
-                    <li>Thursday: 12PM - 5PM</li>
-                    <li>Friday: 10AM - 2PM</li>
-                    <li>Saturday: 8AM - 3PM</li>
-                    <li>Sunday: 8AM - 3PM</li>
-                </ul>
-            </div>
-        </div>
+        }
     </div>
 </div>
 
