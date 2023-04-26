@@ -20,7 +20,7 @@ namespace RazorPagesUser.Pages
             
         }
 
-        public void OnPost(string nlocation)
+        public void OnPost(string nlocation, string rating, string comment)
         {
             
             UserService userService = new UserService();

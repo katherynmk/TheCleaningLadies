@@ -104,7 +104,22 @@
                         <li>Saturday: @user.saturdayStart - @user.saturdayEnd</li>
                         <li>Sunday: @user.sundayStart - @user.sundayEnd</li>
                     </ul>
+            </div>
+            <div class="review">
+                <div class="rating-box">
+                    <button type="button" class="collapsible">Submit Review</button>
+                    <div class="reviews">
+						<form method="post">
+                            <p>Rating out of 5:</p>
+                            <input type="number" name="rating" min="1" max="5">
+                            <p></p>
+                            <p>Review and Comments:</p>
+                            <input type="name" name="comment">
 
+                            <input type="submit" />
+                        </form>
+                    </div>
+				</div>
             </div>
         </div>
         }
@@ -117,3 +132,20 @@ img {
   border-radius: 50%;
 }
 </style>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+    });
+}    
+</script>
