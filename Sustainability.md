@@ -5,3 +5,6 @@ To run our project, follow these steps:
 ```
 dotnet watch
 ```
+
+To add a database, create a MongoDB database and get the connection string.
+Replace the old connection string in UserService.cs. When the code runs, it will create everything needed in the database.
