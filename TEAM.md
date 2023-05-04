@@ -44,3 +44,11 @@ As a team, we created our production and developer environment. We created a Git
 	This sprint was a continuation of updating and enhancing the product's useability so that users can access our resources through a functional and cohesive site. 
 
 
+SPrint 5 Review: 
+This sprint was part of the winding down for the team. Most of the key features in the MVP have been completed. The website is very close to the team’s goals. While approaching finals, Katie decided to give her teammates easier stories as sort of a reward for all of their hard work this semester. 
+
+Cammie worked on some cards to display information about cleaners more effectively and beautifully. While Katie and Emily do the rough code, Cammie refines it and makes it easier on the user's eyes. She has made the site much more appealing. 
+
+Emily was responsible for the login and the encryption for that feature. Her personally designed code hashes passwords and works incredibly well with the website. She has done such amazing work on this site. She accomplished incredibly difficult tasks in a framework she was unfamiliar with promptly. She is a wonderful programmer and it has shown throughout the semester. 
+
+Katie worked on getting Paypal and cards to work within the website. She had an easy time with this based on her newfound familiarity with .NET and the great documentation Paypal had on their website. 
