@@ -11,32 +11,48 @@ namespace RazorPagesSeller.Pages
         {
 
         }
-        public IActionResult OnPost(string username, string password)
-        {
-            UserService userService = new UserService();
-            if(userService.LogIn(username, password)){
+		public IActionResult OnPost(string username, string password, string action)
+		{
+			if (action == "login")
+			{
+				UserService userService = new UserService();
+				if (userService.LogIn(username, password))
+				{
 
-                const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-                var random = new Random();
-                var theString = new string(Enumerable.Repeat(chars, 50)
-                  .Select(s => s[random.Next(s.Length)]).ToArray());
+					const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+					var random = new Random();
+					var theString = new string(Enumerable.Repeat(chars, 50)
+					  .Select(s => s[random.Next(s.Length)]).ToArray());
 
-                Response.Cookies.Append("sessionCookie", theString, new CookieOptions
-                {
-                    Expires = DateTimeOffset.UtcNow.AddMinutes(30),
-                    HttpOnly = true,
-                    Secure = true,
-                    SameSite = SameSiteMode.Strict
-                });
+					Response.Cookies.Append("sessionCookie", theString, new CookieOptions
+					{
+						Expires = DateTimeOffset.UtcNow.AddMinutes(30),
+						HttpOnly = true,
+						Secure = true,
+						SameSite = SameSiteMode.Strict
+					});
 
-                userService.CreateLoginSession(theString, username, password);
+					userService.CreateLoginSession(theString, username, password);
 
 
-                return RedirectToPage("/UpdateInformation");
-            }
-            return Page();
-        }
-    }
+					return RedirectToPage("/UpdateInformation");
+				}
+			}
+			else
+			{
+				UserService userService = new UserService();
+				if (userService.CreateAccount(username, password))
+				{
+					return RedirectToPage("/LoginOut");
+				}
+				else
+				{
+					return Page();
+				}
+			}
+			return Page();
+		}
+	}
 
 
 }
