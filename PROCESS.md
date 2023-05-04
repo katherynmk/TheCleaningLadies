@@ -69,3 +69,12 @@ Katie
 As a user, I want a third party payment processor like paypal to be used, so that I know my payment information is secure (10 points)
 As a cleaner, I want to be able to provide payment information on my account so that I may be able to receive payment (5 points)
 
+
+Sprint 6: 
+Cammie
+As a buyer, I want to have a receipt for my purchase sent to my email so that I have a record of my purchase (5 points)
+As a buyer, I want my refund request to be seen by a developer so that I know it is possible to get a refund (3 points) 
+Emily
+As a user, I would like the sign-up and log-in features to be combined, so that I am not confused on how to log in or create and account (15 points)
+Katie
+As a user, I want another popular payment method (third party) to be used, so that I have more payment options that are also secure (12 points) 
