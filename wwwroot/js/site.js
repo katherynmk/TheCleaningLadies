@@ -92,6 +92,22 @@ function myFunction() {
     }
   }
 
-  $('.carousel').carousel()
 
+  var bookAptButton = document.getElementById('bookApt');
+  var popup = document.getElementById('popup');
+  var closeButton = document.getElementById("closeButton");
 
+  popup.style.display = "none";
+
+  bookAptButton.addEventListener('click', function() {
+    // Show the popup
+      popup.style.display = 'block';
+  }); 
+
+  closeButton.addEventListener("click", function() {
+    // Hide the popup
+    popup.style.display = "none";
+    console.log("button dicked");
+  });
+
+ 

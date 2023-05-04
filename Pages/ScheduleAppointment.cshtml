@@ -100,7 +100,12 @@
         <option value="audi">9:00AM</option>
       </select> <br><br>
 
-        <input type="submit" class = "button1" value="Send Email">
+      <button id="bookApt">Book Appointment</button>
+      <div id="popup" class="popup">
+          <h2>Thank you for booking an appointment!</h2>
+          <p>Your receipt has been sent to your email.</p>
+          <button id="closeButton">Close</button>
+      </div>
     </form>
 
 </div>
@@ -204,6 +209,7 @@ header .current-date{
 .days li:not(.active):hover::before{
   background: #f2f2f2;
 }
+
 </style>
 
 @section Scripts {

@@ -20,6 +20,8 @@ public class User
     public string ccvv { get; set;}
     public string area {get; set;}
     public string email {get; set;}
+    public string review{get; set;}
+    public string reviewComments {get; set;}
     public string? location { get; set;}
 
     public string sessionID { get; set;}
